@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--color-surface-hero);
+  padding: 100px 0;
+}
+
+.footer-logo {
+  color: var(--color-surface-default);
+  display: inline-block;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-surface-default);
+  max-width: 264px;
+  font-weight: 400;
+}
