@@ -1,42 +1,28 @@
-.team-section {
+#team {
   background-color: var(--color-surface-default);
-  padding: 120px 0;
 }
 
-.team-list {
-  display: flex;
-  gap: 24px;
-}
-
-.team-item {
+#team .team-item {
   background-color: var(--color-surface-primary);
-  width: 264px;
-  border-radius: 0px 0px 4px 4px;
-  box-shadow:
-    0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.team-img {
+#team .team-img {
   display: block;
 }
 
-.team-card-content {
-  padding: 32px 0;
+#team .team-card-content {
   text-align: center;
 }
 
-.team-member-name {
+#team .team-member-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-contrast-high);
-  margin-bottom: 8px;
 }
 
-.team-member-role {
+#team .team-member-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

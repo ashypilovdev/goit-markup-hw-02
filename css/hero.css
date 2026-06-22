@@ -1,19 +1,16 @@
-.hero-section {
+#hero {
   background-color: var(--color-surface-hero);
-  padding: 188px 0;
   text-align: center;
 }
 
-.hero-title {
+#hero .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--color-surface-primary);
-  max-width: 496px;
-  margin: 0 auto 48px auto;
 }
 
-.hero-btn {
+#hero .hero-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -22,16 +19,9 @@
   color: var(--color-surface-primary);
   background-color: var(--color-brand-default);
   cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
-  min-width: 169px;
-  display: inline-block;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+#hero .hero-btn:hover,
+#hero .hero-btn:focus {
   background-color: var(--color-brand-pressed);
 }
