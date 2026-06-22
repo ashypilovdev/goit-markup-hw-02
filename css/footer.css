@@ -1,15 +1,14 @@
-#footer {
+.footer-section {
   background-color: var(--color-surface-hero);
 }
 
-#footer .footer-logo {
+.footer-section .footer-logo {
   color: var(--color-surface-default);
   display: inline-block;
   font-weight: 700;
-  font-size: 18px;
 }
 
-#footer .footer-text {
+.footer-section .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-surface-default);

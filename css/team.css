@@ -1,20 +1,20 @@
-#team {
+.team-section {
   background-color: var(--color-surface-default);
 }
 
-#team .team-item {
+.team-section .team-item {
   background-color: var(--color-surface-primary);
 }
 
-#team .team-img {
+.team-section .team-img {
   display: block;
 }
 
-#team .team-card-content {
+.team-section .team-card-content {
   text-align: center;
 }
 
-#team .team-member-name {
+.team-section .team-member-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -22,7 +22,7 @@
   color: var(--color-contrast-high);
 }
 
-#team .team-member-role {
+.team-section .team-member-role {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

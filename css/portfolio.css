@@ -1,16 +1,16 @@
-#portfolio .portfolio-item {
+.portfolio-section .portfolio-item {
   background-color: var(--color-surface-primary);
 }
 
-#portfolio .portfolio-img-wrapper {
+.portfolio-section .portfolio-img-wrapper {
 
 }
 
-#portfolio .portfolio-img {
+.portfolio-section .portfolio-img {
   display: block;
 }
 
-#portfolio .portfolio-overlay {
+.portfolio-section .portfolio-overlay {
   background-color: var(--color-brand-default);
   color: var(--color-surface-default);
   font-size: 16px;
@@ -19,11 +19,11 @@
   display: none;
 }
 
-#portfolio .portfolio-item:hover .portfolio-overlay {
+.portfolio-section .portfolio-item:hover .portfolio-overlay {
   display: block;
 }
 
-#portfolio .portfolio-item-title {
+.portfolio-section .portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -31,7 +31,7 @@
   color: var(--color-contrast-high);
 }
 
-#portfolio .portfolio-item-category {
+.portfolio-section .portfolio-item-category {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
